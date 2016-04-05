@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video, input  {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-text-size-adjust: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    font-family:"微软雅黑";
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+a { text-decoration:none; color:#464f5c;}
+input {-webkit-appearance:none; /*去除input默认样式*/}
+.floatl { float:left; display:inline;}
+.floatr { float:right; display:inline;}
+.clearfix { zoom:1;}
+.clear { overflow:hidden; clear:both;}
+.clearfix:after { content:"."; overflow:hidden; clear:both; visibility:hidden; display:block; height:0;}
+html { height:100%;}
+body { font-family: "微软雅黑"; font-style:normal; height:100%; font-size:100%; width:100%; overflow-x:hidden; background:#fff;}
+
+.box { width:100%; position:relative; height:100%; overflow-x:hidden;  margin:0 auto;}
+.head {  background:#26acdf; color:#fff; height:54px; line-height:54px; position:relative; font-size:120%; border-bottom:1px solid #5fc5ec; }
+.tab { float:left; width:50%; text-align:center;  color:#fff;}
+.tab input { background:none; color:#fff;}
+.top { background:#26acdf; color:#fff; text-align:center; font-size:120%; height:54px; line-height:54px; position:relative;}
+.top a { display:block; width:54px; height:54px;  line-height:54px;  position:absolute; left:0px; top:0px; background: url(../images/detail_02.jpg)  no-repeat 0 0; background-size:contain;}
+.search {position:absolute; left:18%; top:8px; width:62.5%; height:38px; line-height:38px; background:#26acdf; border-bottom:1px solid #5fc5ec; }
+.search input{width:75%; height:38px; line-height:38px; background:#26acdf; color:#fff; text-align:center;float:left;}
+.suosou { float:left;width: 25%;}
+.suosou input {background:url(../images/product_03.png) no-repeat 0 0; margin-top:5px;height:33px; line-height:38px; overflow: hidden;text-indent: -100000000px;}
+.con { background:#fff; width: 100%; }
+.prolist { width: 100%;  float: left;}
+.prolist li { float: left;width: 30%; color: #333;  margin-left:2.5%; margin-top:2.5%; overflow: hidden; text-align:center;}
+.prolist li a {display: block;}
+img {width:100%; padding-bottom:2%;}
+.prolist li span {font-size:120%; }
+#price { color:#26acdf; font-size:100%;}
+
+
+.seller { width: 100%;  }
+.seller li { float: left; width:95%; color: #333;  margin-left:2.5%; margin-top:2.5%; overflow: hidden; border-bottom:3px solid #dedede;}
+.shangjia { width:40%; float: left; margin-bottom:2.5%;}
+.shangjia img {width: 100%;}
+.text { width:54%; float: left; margin-left:5%;margin-bottom:2.5%;}
+.text h3 { font-size:120%; margin:10px 0;}
+.text p { font-size:100%; color:#666; }
+.tuijian {float: left; color:#666;}
+.xing { height:21px; line-height:21px; float: left;}
+.xing img { width:19px; height:17px; margin-top:2px;}
+
+.detail { width:95%;  margin-left:2.5%; margin-top:2.5%; }
+.jieshao { padding:15px 0;border-bottom:3px solid #dedede;}
+.jieshao h2 { font-size:130%; margin-bottom:1%;}
+.jieshao span { font-size:110%;}
+.jieshao p { font-size:100%; margin-top:1%; color:#494949;}
+.mingcheng {padding:15px 0;}
+.mingcheng h2 { font-size:130%; margin-bottom:1%; color:#26acdf;}
+.mingcheng span { font-size:110%;}
+.mingcheng p { font-size:100%; margin-top:1%; color:#494949;}
+.xing1 { height:21px; line-height:21px;}
+.xing1 img { width:19px; height:17px;  margin-right:2px;  margin-top:2px;}
+.detail_anniu { height:60px; width:100%; text-align:center;  padding:5% 0;}
+.detail_anniu input { border:none; background:#26acdf; text-align:center; line-height:60px; height:60px; width:100%; color:#fff; font-size:150%; border-radius:5px;  letter-spacing:3px;}
+
+.seller_product { width: 100%;  }
+.seller_product li { float: left; width:95%; color: #333;  margin-left:2.5%; margin-top:2.5%; overflow: hidden; border-bottom:3px solid #dedede;}
+.chanpin { width:40%; float: left; margin-bottom:2.5%;}
+.text1 { width:54%; float: left; margin-left:6%;margin-bottom:2.5%;}
+.text1 h3 { font-size:120%; margin-bottom:6px;;}
+.text1 p { font-size:100%; color:#666; }
+.text1 p span { color:#ff5400;}
+.number { float:left; height:23px; line-height:23px; width:44%; margin-top:5px; }
+.number a { float:left;}
+.number a img { width:100%;}
+.number input { float:left; width:42%; text-align: center;}
+.num_anniu {float:left; height:23px;  line-height:23px; width:23%; text-align:center; margin-top:5px; margin-left:8%;  }
+.num_anniu input { border:none; background:#ff5400; text-align:center; line-height:23px; height:23px; width:98%; color:#fff; font-size:100%;  letter-spacing:2px;}
+
+
+.con1 {background:#f4f4f4;  width:100%; height:100%;}
+.pay {  padding:2.5% 0;  width:100%;}
+.list { background:#fff; width:90%; color: #333;  height:296px; margin-left:5%; }
+.list1 { width:95%;float:left;  margin: 2.5%;}
+.list1 li { width:100%;  border-bottom:1px solid #f4f4f4; float:left; height:52px; line-height:52px;}
+.list1 .a1 { width:36%; float:left; height:52px; line-height:52px; }
+.list1 .a2 { width:30%; float:left; height:52px; line-height:52px; }
+.list1 .a3 { width:33%; float:left; height:52px; line-height:52px; }
+.list2 {float:left;  width:95%;margin:2.5%; background:#fff; border:none; font-size:100%;  height:30px; line-height:30px;}
+.list2 .floatl { width:30%;  color:#333;}
+.list2 .floatr { width:70%;}
+.list2 input,.sugg1 textarea { height:30px; line-height:30px; float:left;  color:#333; background:none; width:98%; border:solid 1px #d3d3d3; border-radius:5px;}
+.pay_anniu { height:60px; width:90%; text-align:center;  margin: 2.5% 5%;}
+.pay_anniu input { border:none; background:#26acdf; text-align:center; line-height:60px; height:60px; width:100%; color:#fff; font-size:150%; border-radius:5px;  letter-spacing:3px;}
+
+.numbox { width:100%;}
+.number1 { height:23px; line-height:23px; width:30%; margin-top:5px; }
+.number1 a { float:left;}
+.number1 a img { width:100%;}
+.number1 input { float:left; width:36%; text-align: center;}

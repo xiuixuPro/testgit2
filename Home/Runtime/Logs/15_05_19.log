@@ -1,0 +1,567 @@
+[ 2015-05-19T11:06:42+08:00 ] 127.0.0.1 /index.php/Houtai/index.php?m=Houtai&a=login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Houtai
+
+[ 2015-05-19T11:06:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-05-19T11:06:44+08:00 ] 127.0.0.1 /index.php/Houtai/index.php?m=Houtai&a=login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Houtai
+
+[ 2015-05-19T11:06:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2015-05-19T11:06:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014179s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001919s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-05-19T11:06:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-05-19T11:06:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013096s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000566s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-05-19T11:06:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000541s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-05-19T11:06:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000537s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000362s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-05-19T11:06:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018847s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000365s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-05-19T11:06:49+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-05-19T11:06:49+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-05-19T11:06:49+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-05-19T11:06:49+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000226s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-05-19T11:06:50+08:00 ] 127.0.0.1 /index.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.010969s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: icpcode E:\wamp\www\Home\Runtime\Cache\ff7d6b59e6f2b25029a5beaef1fde9aa.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013418s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-05-19T11:06:59+08:00 ] 127.0.0.1 /index.php/Config/setting.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.009773s ]
+SQL: UPDATE `com_config` SET `sitename`='Vgo Chess围棋网',`sitetitle`='Vgo Chess围棋网',`siteurl`='http://localhost/index.php',`sitecopyright`='2222222222222222222',`logowidth`=19,`logoheight`=18,`logoimg`='/public/editor/attached/image/20150428/20150428083728_91971.png' WHERE ( siteid=1 ) [ RunTime:0.000772s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: icpcode E:\wamp\www\Home\Runtime\Cache\ff7d6b59e6f2b25029a5beaef1fde9aa.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000668s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-05-19T11:07:04+08:00 ] 127.0.0.1 /index.php/Config/setting.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.008169s ]
+SQL: UPDATE `com_config` SET `sitename`='Vgo Chess围棋网1',`sitetitle`='Vgo Chess围棋网',`siteurl`='http://localhost/index.php',`sitecopyright`='2222222222222222222',`logowidth`=19,`logoheight`=18,`logoimg`='/public/editor/attached/image/20150428/20150428083728_91971.png' WHERE ( siteid=1 ) [ RunTime:0.001032s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: icpcode E:\wamp\www\Home\Runtime\Cache\ff7d6b59e6f2b25029a5beaef1fde9aa.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011669s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-05-19T11:07:08+08:00 ] 127.0.0.1 /index.php/Config/setting.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.009580s ]
+SQL: UPDATE `com_config` SET `sitename`='Vgo Chess围棋网',`sitetitle`='Vgo Chess围棋网',`siteurl`='http://localhost/index.php',`sitecopyright`='2222222222222222222',`logowidth`=19,`logoheight`=18,`logoimg`='/public/editor/attached/image/20150428/20150428083728_91971.png' WHERE ( siteid=1 ) [ RunTime:0.000550s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: icpcode E:\wamp\www\Home\Runtime\Cache\ff7d6b59e6f2b25029a5beaef1fde9aa.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2015-05-19T11:07:10+08:00 ] 127.0.0.1 /index.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.007309s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: icpcode E:\wamp\www\Home\Runtime\Cache\ff7d6b59e6f2b25029a5beaef1fde9aa.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000365s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000233s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-05-19T11:07:10+08:00 ] 127.0.0.1 /index.php/Chart/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-05-19T11:07:11+08:00 ] 127.0.0.1 /index.php/Chart/pieChart.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.007685s ]
+SQL: select count(*)  cc,c.saishiareaname as  cn from com_saishi p inner join com_saishiarea c on p.saishiareaid=c.saishiareaid group by p.saishiareaid order by count(*) [ RunTime:0.001053s ]
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 186 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 187 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+
+[ 2015-05-19T11:07:14+08:00 ] 127.0.0.1 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.007462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000729s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.001337s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035460s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2015-05-19T11:07:17+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.010067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.007383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000951s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.007802s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002066s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001356s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2015-05-19T11:07:17+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.006798s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.007492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.008014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026074s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006657s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2015-05-19T11:07:19+08:00 ] 127.0.0.1 /index.php/Index/edit/saishiid/8.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.009250s ]
+SQL: SELECT * FROM `com_saishicate`  [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `com_saishiarea` [ RunTime:0.007039s ]
+SQL: SELECT * FROM `com_saishiarea`  [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.007952s ]
+NOTIC: [8] Undefined variable: where E:\wamp\www\Home\Lib\Action\IndexAction.class.php 第 34 行.
+SQL: SELECT * FROM `com_saishi` LIMIT 1   [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-05-19T11:07:43+08:00 ] 127.0.0.1 /index.php/Quhao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 无法加载模块:Quhao
+

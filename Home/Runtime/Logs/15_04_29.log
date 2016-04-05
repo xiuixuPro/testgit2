@@ -1,0 +1,3147 @@
+[ 2015-04-29T08:43:14+08:00 ] 127.0.0.1 /index.php/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-04-29T08:43:14+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T08:43:19+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) LIMIT 1   [ RunTime:0.007070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.005643s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000767s ]
+
+[ 2015-04-29T08:43:21+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Login&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008893s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000588s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-04-29T08:43:21+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T08:43:24+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000454s ]
+
+[ 2015-04-29T08:43:25+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012788s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-04-29T08:43:25+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-04-29T08:43:25+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003884s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-04-29T08:43:26+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-04-29T08:43:27+08:00 ] 127.0.0.1 /index.php/Footer/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `com_footer` [ RunTime:0.004230s ]
+SQL: SELECT * FROM `com_footer` LIMIT 1   [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-04-29T08:43:38+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003789s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-04-29T08:43:46+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000707s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 223 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-04-29T08:45:31+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005107s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000611s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003525s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-04-29T08:45:37+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000717s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.017253s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 0 ) LIMIT 1   [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000937s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-04-29T08:45:42+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-04-29T08:45:43+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004185s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-04-29T08:46:02+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003774s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-04-29T08:46:07+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000933s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002748s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-04-29T08:46:10+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003882s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 2 ) LIMIT 1   [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012598s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-04-29T08:48:11+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000859s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-04-29T08:48:55+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 211 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-04-29T08:48:58+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 211 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-04-29T08:49:17+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000474s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000969s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-04-29T08:49:29+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014516s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-04-29T08:49:30+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004726s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-04-29T08:49:34+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 211 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000662s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-04-29T08:50:01+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000717s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-04-29T08:50:02+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001199s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-04-29T08:50:43+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-04-29T10:34:38+08:00 ] 127.0.0.1 /index.php/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000547s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-04-29T10:34:38+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T10:34:45+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005924s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) LIMIT 1   [ RunTime:0.000856s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000423s ]
+
+[ 2015-04-29T10:34:46+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-04-29T10:34:47+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003126s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-04-29T10:34:47+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017725s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2015-04-29T10:34:47+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-04-29T10:34:48+08:00 ] 127.0.0.1 /index.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.005371s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2015-04-29T10:34:49+08:00 ] 127.0.0.1 /index.php/Chart/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014274s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003371s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2015-04-29T10:34:50+08:00 ] 127.0.0.1 /index.php/Chart/pieChart.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.004912s ]
+SQL: select count(*)  cc,c.saishiareaname as  cn from com_saishi p inner join com_saishiarea c on p.saishiareaid=c.saishiareaid group by p.saishiareaid order by count(*) [ RunTime:0.033252s ]
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 186 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 187 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 6116 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5783 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5828 行.
+NOTIC: [8192] Function ereg() is deprecated E:\wamp\www\ThinkPHP\Extend\Vendor\jpgraph\jpgraph.php 第 5984 行.
+
+[ 2015-04-29T10:34:50+08:00 ] 127.0.0.1 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.004845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.014668s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001519s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001879s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2015-04-29T10:34:52+08:00 ] 127.0.0.1 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.004072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002886s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2015-04-29T10:34:52+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.003848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.004449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.004071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001651s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2015-04-29T10:34:53+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.006323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.004159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.005177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002350s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002499s ]
+
+[ 2015-04-29T10:34:56+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027394s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007545s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002066s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002208s ]
+
+[ 2015-04-29T10:34:56+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031345s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002617s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001798s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2015-04-29T10:34:57+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023889s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002184s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002063s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008305s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2015-04-29T10:34:58+08:00 ] 127.0.0.1 /index.php/Footer/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `com_footer` [ RunTime:0.004869s ]
+SQL: SELECT * FROM `com_footer` LIMIT 1   [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2015-04-29T10:35:01+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.006249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023206s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2015-04-29T10:35:18+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.007146s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008238s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002212s ]
+
+[ 2015-04-29T10:35:21+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005579s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002703s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2015-04-29T10:36:25+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020270s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2015-04-29T10:39:14+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018897s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004682s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-04-29T10:39:17+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004563s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 20,5   [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001064s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001010s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-04-29T10:39:19+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/6.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 25,5   [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001078s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2015-04-29T10:39:20+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/10.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005837s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 45,5   [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2015-04-29T10:39:22+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/11.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 50,5   [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001015s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2015-04-29T10:39:23+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/15.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 70,5   [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001033s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003703s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2015-04-29T10:39:24+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/16.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 75,5   [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019825s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001217s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2015-04-29T10:39:26+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/20.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003742s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 95,5   [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019465s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2015-04-29T10:39:28+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/21.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002773s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003905s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000605s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 100,5   [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017924s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2015-04-29T10:39:32+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/25.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 120,5   [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018272s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001555s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2015-04-29T10:39:38+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/index.php?m=Qishou&a=ajax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004669s ]
+SQL: DELETE FROM `com_qishou` WHERE ( `qishouid` = 142 ) [ RunTime:0.032650s ]
+
+[ 2015-04-29T10:39:47+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/24.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003687s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 115,5   [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018330s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001029s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000862s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001013s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-04-29T10:41:29+08:00 ] 127.0.0.1 /index.php/Footer/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `com_footer` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `com_footer` LIMIT 1   [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-04-29T10:41:31+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003809s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017873s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001243s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-04-29T10:41:37+08:00 ] 127.0.0.1 /index.php/Qishou/index.php?m=Qishou&a=ajax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004044s ]
+SQL: DELETE FROM `com_qishou` WHERE ( `qishouid` = 4 ) [ RunTime:0.000494s ]
+
+[ 2015-04-29T10:41:59+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-04-29T10:42:18+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-04-29T10:42:18+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T10:42:22+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Login&a=loginact
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.004038s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = null ) LIMIT 1   [ RunTime:0.000458s ]
+
+[ 2015-04-29T10:42:28+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'xiuxiu' ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'xiuxiu' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = 'xiuxiu' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000444s ]
+
+[ 2015-04-29T10:42:29+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015992s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000781s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005898s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2015-04-29T10:42:29+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000839s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003980s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2015-04-29T10:42:29+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001561s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016979s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000820s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-04-29T10:42:29+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000723s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000656s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-04-29T10:42:31+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005578s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000845s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-04-29T10:42:36+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 20,5   [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001190s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000838s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003817s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-04-29T10:42:38+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/6.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 25,5   [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018736s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000850s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-04-29T10:42:40+08:00 ] 127.0.0.1 /index.php/Qishou/index/p/index.php?m=Qishou&a=ajax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004608s ]
+SQL: DELETE FROM `com_qishou` WHERE ( `qishouid` = 44 ) [ RunTime:0.000413s ]
+
+[ 2015-04-29T10:43:09+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000987s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000815s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002179s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-04-29T10:43:09+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T10:43:13+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Login&a=loginact
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.004391s ]
+NOTIC: [8] Undefined index: user E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = null ) LIMIT 1   [ RunTime:0.000395s ]
+
+[ 2015-04-29T10:43:16+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = '梅秀秀' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = '梅秀秀' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = '梅秀秀' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000489s ]
+
+[ 2015-04-29T10:43:17+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005238s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2015-04-29T10:43:17+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002610s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2015-04-29T10:43:18+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000873s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-04-29T10:43:18+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-04-29T10:43:19+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000690s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-04-29T10:43:22+08:00 ] 127.0.0.1 /index.php/Qishou/index.php?m=Qishou&a=ajax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-04-29T10:43:39+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000799s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2015-04-29T10:43:40+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 211 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2015-04-29T10:46:27+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016778s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000997s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002477s ]
+
+[ 2015-04-29T10:46:29+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001005s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000812s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2015-04-29T10:54:21+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000958s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000784s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003504s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-04-29T10:55:20+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001691s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005944s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2015-04-29T10:58:24+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+
+[ 2015-04-29T10:59:13+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+
+[ 2015-04-29T10:59:54+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001023s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004727s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-04-29T10:59:56+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000949s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-04-29T11:00:52+08:00 ] 127.0.0.1 /index.php/Qishou/addact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.028051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` WHERE ( `name` = '111111111111' ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: INSERT INTO `com_qishou` (`name`,`qishouid`,`birth`,`thumbfiles`,`rongyu`) VALUES ('111111111111',0,'2015-4-12','/public/editor/attached/image/20150429/20150429030046_97989.jpg','1111111111111111111') [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2015-04-29T11:00:53+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001035s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-04-29T11:02:37+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001021s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2015-04-29T11:03:50+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003949s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-04-29T11:03:53+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003962s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 281 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000978s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000859s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-04-29T11:07:17+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001195s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004028s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-04-29T11:07:19+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004021s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.009488s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 287 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021441s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001995s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2015-04-29T11:09:00+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004459s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 286 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-04-29T11:09:19+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005729s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 286 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2015-04-29T11:10:36+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004492s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014559s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-04-29T11:10:38+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000711s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-04-29T11:10:42+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004252s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\a4bb70ff013ec7c722b6fdfbdeeeb3e1.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015209s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2015-04-29T11:11:44+08:00 ] 127.0.0.1 /index.php/Qishou
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.003868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000651s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-04-29T11:11:46+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004331s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000912s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004729s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-04-29T11:11:57+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.008940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-04-29T11:11:58+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 257 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-04-29T11:12:41+08:00 ] 127.0.0.1 /index.php/Qishou/addact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.007343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` WHERE ( `name` = '22aaaaaaaaaaaaa' ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: INSERT INTO `com_qishou` (`name`,`qishouid`,`birth`,`thumbfiles`,`duanwei`,`rongyu`) VALUES ('22aaaaaaaaaaaaa',0,'2015-4-5','/public/editor/attached/image/20150429/20150429031231_36070.gif','8','aaaaaaaaaaaaa') [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002986s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002636s ]
+
+[ 2015-04-29T11:12:42+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003086s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.006305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023138s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001009s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2015-04-29T11:16:28+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+
+[ 2015-04-29T11:21:16+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `com_qishouarea` [ RunTime:0.004157s ]
+SQL: SELECT * FROM `com_qishouarea`  [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001021s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000814s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-04-29T11:22:07+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `com_qishouarea` [ RunTime:0.003818s ]
+SQL: SELECT * FROM `com_qishouarea`  [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 261 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001087s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000844s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2015-04-29T11:22:31+08:00 ] 127.0.0.1 /index.php/Qishou/addact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` WHERE ( `name` = '33333333333' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: INSERT INTO `com_qishou` (`name`,`qishouid`,`birth`,`thumbfiles`,`duanwei`,`rongyu`,`qishouareaid`) VALUES ('33333333333',0,'2015-4-6','','3','3',2) [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-04-29T11:22:32+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000616s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001057s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-04-29T11:22:38+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.006169s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001781s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001095s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2015-04-29T11:22:41+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `com_qishouarea` [ RunTime:0.005577s ]
+SQL: SELECT * FROM `com_qishouarea`  [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 261 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2015-04-29T11:23:45+08:00 ] 127.0.0.1 /index.php/Qishou/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `com_qishouarea` [ RunTime:0.003683s ]
+SQL: SELECT * FROM `com_qishouarea`  [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: r E:\wamp\www\Home\Runtime\Cache\c42792e72621e87cce3bf140831c0b8b.php 第 261 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-04-29T11:23:47+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000788s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005427s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-04-29T11:23:52+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.005811s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001205s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-04-29T11:24:15+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001156s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-04-29T11:24:15+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-04-29T11:24:28+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.003983s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.006374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.004651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-04-29T11:24:28+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.006271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.005106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029093s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001063s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004317s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-04-29T11:24:37+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.005283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.003875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.003803s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025159s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001289s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2015-04-29T11:24:37+08:00 ] 127.0.0.1 /index.php/Index/table.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.004092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `com_user` left JOIN com_authgroup ON com_user.groupid=com_authgroup.groupid LIMIT 0,5   [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `com_saishi` [ RunTime:0.004538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishi` LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `com_saishi` LIMIT 0,10   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `com_saishicate` [ RunTime:0.005531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_saishicate` LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `com_saishicate` left JOIN com_saishiarea ON com_saishiarea.saishiareaid=com_saishicate.saishiareaid LIMIT 0,5   [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001217s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000815s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2015-04-29T11:24:38+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.009676s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000619s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024792s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2015-04-29T11:24:39+08:00 ] 127.0.0.1 /index.php/Footer/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `com_footer` [ RunTime:0.003526s ]
+SQL: SELECT * FROM `com_footer` LIMIT 1   [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017134s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000980s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000968s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003807s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-04-29T11:25:08+08:00 ] 127.0.0.1 /index.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `com_config` [ RunTime:0.007354s ]
+SQL: SELECT * FROM `com_config`  [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000949s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-04-29T11:25:58+08:00 ] 127.0.0.1 /index.php/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001048s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2015-04-29T11:25:59+08:00 ] 127.0.0.1 /index.php/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+
+[ 2015-04-29T11:26:05+08:00 ] 127.0.0.1 /index.php/Login/loginact.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' E:\wamp\www\Home\Lib\Action\LoginAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `com_user` [ RunTime:0.024348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: SELECT * FROM `com_user` WHERE ( `adminname` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000769s ]
+
+[ 2015-04-29T11:26:07+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000969s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000783s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003629s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-04-29T11:26:07+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018402s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-04-29T11:26:07+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001923s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-04-29T11:26:07+08:00 ] 127.0.0.1 /index.php/Login/index.php?m=Index&a=index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-04-29T11:26:10+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.004004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000808s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004152s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-04-29T11:26:13+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.007484s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001033s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001050s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2015-04-29T11:26:49+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000957s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000848s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-04-29T11:26:49+08:00 ] 127.0.0.1 /index.php/Web/nav.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: saishi_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 228 行.
+NOTIC: [8] Undefined variable: saishiPage E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 252 行.
+NOTIC: [8] Undefined variable: saishicate_list E:\wamp\www\Home\Runtime\Cache\ab29a59aa45c5558ecb686976fcc4d93.php 第 298 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-04-29T11:26:50+08:00 ] 127.0.0.1 /index.php/Qishou/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.006233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `com_qishou` LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `com_qishou` LIMIT 0,5   [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020139s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001093s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000861s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2015-04-29T11:27:25+08:00 ] 127.0.0.1 /index.php/Qishou/edit/qishouid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `com_qishou` [ RunTime:0.006107s ]
+SQL: SELECT * FROM `com_qishou` WHERE ( `qishouid` = 1 ) LIMIT 1   [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017721s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001149s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001037s ]
+
